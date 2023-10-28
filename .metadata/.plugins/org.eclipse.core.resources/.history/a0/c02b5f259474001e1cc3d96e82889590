@@ -1,0 +1,5 @@
+package com.mathewzvk.springboot.validationdemo.model;
+
+public class Customer {
+
+}

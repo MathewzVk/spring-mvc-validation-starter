@@ -1,0 +1,5 @@
+package com.mathewzvk.springboot.validationdemo.validation;
+
+public class CourseCodeConstriantValidator {
+
+}

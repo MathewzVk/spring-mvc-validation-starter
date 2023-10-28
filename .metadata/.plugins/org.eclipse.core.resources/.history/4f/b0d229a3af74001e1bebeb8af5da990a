@@ -1,0 +1,21 @@
+package com.mathewzvk.springboot.validationdemo.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.mathewzvk.springboot.validationdemo.model.Customer;
+
+
+@Controller
+public class CustomerController {
+
+	
+	@GetMapping("/")
+	public String showform(Model theModel) {
+		
+		theModel.addAttribute("customer", new Customer());
+		
+		return "customer-form";
+	}
+}
